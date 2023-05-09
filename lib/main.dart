@@ -43,9 +43,12 @@ class BasicsPage extends StatelessWidget {
         //margin: EdgeInsets.all(50),
         //padding: EdgeInsets.all(20),
         child: Center(
-          child: Icon(
+          /*child: Icon(
             Icons.house
-          ),
+          ),*/
+          child: Image.asset(
+            "images/cofee.jpg"
+          )
         ),
       ),
     ) ;
