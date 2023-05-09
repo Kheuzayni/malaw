@@ -30,6 +30,24 @@ class BasicsPage extends StatelessWidget {
 
     print("Size : $size");
     print("Platform : $platform");
-    return Container(height: 10, width: 10,);
+    return Scaffold(
+      body:
+      Container(
+        /*height: 80.0,
+        width: 150,*/
+        height: size.height,
+        width: size.width,
+        //color: Theme.of(context).colorScheme.secondary,
+        //color: Color.fromRGBO(90, 12, 100, 1.0),
+        color: Colors.white,
+        //margin: EdgeInsets.all(50),
+        //padding: EdgeInsets.all(20),
+        child: Center(
+          child: Icon(
+            Icons.house
+          ),
+        ),
+      ),
+    ) ;
   }
 }
