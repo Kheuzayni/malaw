@@ -59,7 +59,7 @@ class BasicsPage extends StatelessWidget {
 
                         children: [
 
-                          Text("Test de la colonne"),
+                          Text("Stack : Test de la colonne"),
                           Stack(
                             alignment: Alignment.topCenter,
                             children: [
@@ -74,7 +74,7 @@ class BasicsPage extends StatelessWidget {
                                   Icon(Icons.favorite),
                                   Icon(Icons.height),
                                   Spacer(),
-                                  Text("Un autre élément"),
+                                  Text("Diayla gourte \n mayla café"),
                                 ],
                               )
 
@@ -152,7 +152,7 @@ class BasicsPage extends StatelessWidget {
     return CircleAvatar(
       radius: radius,
       backgroundColor: Colors.blue,
-      foregroundImage: NetworkImage("https://images.pexels.com/photos/1756086/pexels-photo-1756086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"),
+      foregroundImage: NetworkImage("https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
     );
   }
 
@@ -189,7 +189,7 @@ class BasicsPage extends StatelessWidget {
   Text spanDemo() {
     return Text.rich(
         TextSpan(
-            text: "Salut",
+            text: "Salut, Un spanDemo",
             style: TextStyle(color: Colors.red),
             children: [
               TextSpan(
